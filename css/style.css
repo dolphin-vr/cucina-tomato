@@ -1,0 +1,17 @@
+:root{
+  --genoa: #F3F3F3;
+}
+
+body{
+  /* font-family: 'Inter', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+}
+
+/* Невидимі логічні заголовки секцій */
+.invisible{
+  display: none;
+}
+/* Вимикаєм маркери в списках */
+.unmarked{
+  list-style: none;
+}

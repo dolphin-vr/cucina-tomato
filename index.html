@@ -5,12 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CUCINA DI CATHERINA</title>
+    <link rel="shortcut icon" href="./images/tomato2.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header></header>
     <main>
         <section class="hero"></section>
-        <section class="vertical=slider"></section>
+
+        <section class="vertical-slider">
+            <h2>best sales products</h2>
+            <!-- Previous buttons -->
+            <a onclick="plusSlides(-1)"><img src="./images/slide-up.svg" alt="slide up"></a>
+
+            <ul>
+                <li>
+                    <ul>
+                        <li><img src="./images/vslide11.png" alt="Classic sauce" width="352"></li>
+                        <li><img src="./images/vslide21.png" alt="Classic sauce" width="352"></li>
+                        <li><img src="./images/vslide31.png" alt="Classic sauce" width="352"></li>
+                        <h3>Classic sauce</h3>
+                        <p>The most delicate taste of tomatoes, combined with branded spices and white wine, will make your dish incredibly tasty.</p>
+                        <button type="button">Buy now</button>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><img src="./images/vslide12.png" alt="Spicy sauce" width="352"></li>
+                        <li><img src="./images/vslide22.png" alt="Spicy sauce" width="352"></li>
+                        <li><img src="./images/vslide32.png" alt="Spicy sauce" width="352"></li>
+                        <h3>Spicy sauce</h3>
+                        <p>For thrill-seekers, we added hot chili pepper to our sauce, it also reveals all the tastes and aromas of the sauce well.</p>
+                        <button type="button">Buy now</button>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Next buttons -->
+            <a class="next" onclick="plusSlides(1)"><img src="./images/slide-down.svg" alt="slide down"></a>
+        </section>
+
         <section class="videos"></section>
         <section class="horizontal-slider"></section>
     </main>
